@@ -30,7 +30,7 @@ In both cases I placed some of the code from the for loop outside the loop which
 **1.** Clone this repo:
 
 ```
-$ git clone https://github.com/esraneuhofer/Classic-Arcade-Game-Clone.git
+$ git clone https://github.com/esraneuhofer/Website_Optimization.git
 ````
 
 **2.** Serve the application:
@@ -41,5 +41,6 @@ $ run index.html in your browser
 
 ###Resources
 
-"http://www.willpeavy.com/minifier/"
-"optimizilla.com/"
+#####"http://www.willpeavy.com/minifier/"
+#####"optimizilla.com/"
+#####"https://developers.google.com/speed/pagespeed/insights/?hl=de"
