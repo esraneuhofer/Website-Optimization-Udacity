@@ -22,7 +22,9 @@ browser developer tools.
 ######I did not inline the css file since I find the loss of preformance excaptable and rather keep a clean ordered filestructure. 
 ######Minified css/html and js files
 ######Minified the images
-######The changes in the main.js file where rather little but enough to get the required fram-rates.I change the for Loop in updatePositions() and changePizzaSizes().In updatePosition() ijust placed "var mathSin= Math.sin(document.body.scrollTop / 1250)" outside of the looop. In changePizzaSizes() i noticed after  "console.log(document.querySelectorAll(".randomPizzaContainer")[i].offsetWidth" that the number stayed the same for each change.So I took both varibales out of the for loop."var dx = determineDx(document.querySelectorAll(".randomPizzaContainer")[10], size);"var newwidth =(document.querySelectorAll(".randomPizzaContainer")[10].offsetWidth + dx) + 'px';"
+######The changes in the main.js file where rather little but enough to get the required fram-rates.I change the for Loop in updatePositions() and changePizzaSizes().
+######In updatePosition() ijust placed "var mathSin= Math.sin(document.body.scrollTop / 1250)" outside of the looop. 
+######In changePizzaSizes() "document.querySelectorAll(".randomPizzaContainer")[i].offsetWidth" gave a consistend number for each change. Therefor I took both varibales var dx and var newwidth out of the loop with a fixed number in this case 10.
 
 
 
