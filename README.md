@@ -10,6 +10,7 @@ Goal: index.html achieves a PageSpeed score of at least 90 for Mobile and Deskto
 
 ######Minified css/html and js files
 ######Minified the images
+######inlined CSS(although I prefer to keep it in an external file)
 ######Added "async" to js files since the where not critical
 ######Added media="print" to print.css file
 
