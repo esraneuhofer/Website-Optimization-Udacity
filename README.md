@@ -22,9 +22,8 @@ browser developer tools.
 ######I did not inline the css file since I find the loss of preformance excaptable and rather keep a clean ordered filestructure. 
 ######Minified css/html and js files
 ######Minified the images
-######The changes in the main.js file where rather little but enough to get the required fram-rates.
-The change in updatePositions() and changePizzaSizes().
-In both cases I placed some of the code from the for loop outside the loop which increased the speed dramaticly.
+######The changes in the main.js file where rather little but enough to get the required fram-rates.I change the for Loop in updatePositions() and changePizzaSizes().In updatePosition() ijust placed "var mathSin= Math.sin(document.body.scrollTop / 1250)" outside of the looop. In changePizzaSizes() i noticed after  "console.log(document.querySelectorAll(".randomPizzaContainer")[i].offsetWidth" that the number stayed the same for each change.So I took both varibales out of the for loop."var dx = determineDx(document.querySelectorAll(".randomPizzaContainer")[10], size);"var newwidth =(document.querySelectorAll(".randomPizzaContainer")[10].offsetWidth + dx) + 'px';"
+
 
 
 **1.** Clone this repo:
