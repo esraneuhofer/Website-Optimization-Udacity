@@ -22,9 +22,10 @@ browser developer tools.
 ######I did not inline the css file since I find the loss of preformance excaptable and rather keep a clean ordered filestructure. 
 ######Minified css/html and js files
 ######Minified the images
-######The changes in the main.js file where rather little but enough to get the required fram-rates.I change the for Loop in updatePositions() and changePizzaSizes().
-######In updatePosition() ijust placed "var mathSin= Math.sin(document.body.scrollTop / 1250)" outside of the looop. 
-######In changePizzaSizes() "document.querySelectorAll(".randomPizzaContainer")[i].offsetWidth" gave a consistend number for each change. Therefor I took both varibales var dx and var newwidth out of the loop with a fixed number in this case 10.
+######Replaced querySelectorAll and querySelector with faster api call
+######Refactored for loop changePizzaSizes() and declared all possible code outside of the loop
+######Refactored for lopp in updatePosition()  and declared all possible code outside of the loop. 
+######Changed number of pizzas that are displayed to 30 instead of 100 line 543
 
 
 
