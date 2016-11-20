@@ -6,7 +6,7 @@ Project #8
 "You will optimize a provided website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score and runs at 60 frames per second."
 
 ## Task 1 PageSpeed Score
-Goal: index.html achieves a PageSpeed score of at least 90 for Mobile and Desktop.
+####index.html achieves a PageSpeed score of at least 90 for Mobile and Desktop.
 
 ######Minified css/html and js files
 ######Minified the images
